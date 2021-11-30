@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sonar": "node sonar-project.js"
+    "sonar": "node sonar-project.js",
+    "sonar-scanner": "node_modules/sonar-scanner/bin/sonar-scanner"
   },
   "repository": {
     "type": "git",
