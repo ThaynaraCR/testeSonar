@@ -10,9 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          - name: Install Node
           node-version: '13.x'
-          - name: Install Dependencies
           run: npm install
           fetch-depth: 0
       - uses: ThaynaraCR/testeSonar@master
